@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/signUp.css">
+    <script src="../src/signUpValidations.js"></script>
+</head>
+
+<body>
+    <h1>Form SignUp Page validation</h1>
+
+    <div id="container">
+        <form name="form1" action="../src/values.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label>Enter a Username</label>
+                    </td>
+
+                    <td>
+                        <input type="text" id="username" name="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter your Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="Name">
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <label>Enter your Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lastname" name="lastName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter a Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confirm Your password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="confirmpassword" name="confirmYourPassword">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter your Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="text" id="dateofbirth" name="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submitButton" class="submitButton" onclick="validate()"
+                            value="submit">
+                    </td>
+                    <td>
+                        <input type="reset" name="resetButton" class="resetButton">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

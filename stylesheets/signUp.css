@@ -1,0 +1,32 @@
+ *{
+    Font-weight: bolder;
+ }
+ table {
+    display:flex; 
+    flex-direction: column;
+    align-items:center; 
+}
+.submitButton:active{
+    opacity:0.5; 
+}
+.resetButton:active{
+    opacity:0.5; 
+}
+.submitButton , .resetButton{
+    color:white; 
+    border: none;
+    width:160px;
+    height:25px;
+    border-radius:10px;
+    background-color: rgb(61, 117, 118);
+
+}
+#username , #name , #lastname , #password ,#confirmpassword  , #dateofbirth{
+    height:30px;
+    width:200px;
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+}
+td{
+    font-size: 20px;
+}
