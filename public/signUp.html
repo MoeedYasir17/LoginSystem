@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    <h1>Form SignUp Page validation</h1>
+    <h1 class="title">Form SignUp Page validation</h1>
 
     <div id="container">
-        <form name="form1" action="../src/values.php" method="post">
+        <form name="form1" onsubmit="validate()" method="post">
             <table>
                 <tr>
                     <td>
@@ -20,7 +20,7 @@
                     </td>
 
                     <td>
-                        <input type="text" id="username" name="username">
+                        <input type="text" id="username" name="Username">
                     </td>
                 </tr>
                 <tr>
@@ -37,7 +37,7 @@
                         <label>Enter your Last Name</label>
                     </td>
                     <td>
-                        <input type="text" id="lastname" name="lastName">
+                        <input type="text" id="lastname" name="LastName">
                     </td>
                 </tr>
                 <tr>
@@ -45,7 +45,7 @@
                         <label>Enter a Password</label>
                     </td>
                     <td>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="Password">
                     </td>
                 </tr>
                 <tr>
@@ -53,7 +53,7 @@
                         <label>Confirm Your password</label>
                     </td>
                     <td>
-                        <input type="password" id="confirmpassword" name="confirmYourPassword">
+                        <input type="password" id="confirmpassword" name="ConfirmYourPassword">
                     </td>
                 </tr>
                 <tr>
@@ -61,16 +61,15 @@
                         <label>Enter your Date of Birth</label>
                     </td>
                     <td>
-                        <input type="text" id="dateofbirth" name="dob">
+                        <input type="text" id="dateofbirth" name="DOB">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="submit" name="submitButton" class="submitButton" onclick="validate()"
-                            value="submit">
+                        <input type="submit" name="SubmitButton" class="submitButton" value="submit">
                     </td>
                     <td>
-                        <input type="reset" name="resetButton" class="resetButton">
+                        <input type="reset" name="ResetButton" class="resetButton">
                     </td>
                 </tr>
             </table>

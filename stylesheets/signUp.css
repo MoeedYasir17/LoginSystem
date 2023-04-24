@@ -12,6 +12,9 @@
 .resetButton:active{
     opacity:0.5; 
 }
+.title{
+    text-align:center;
+}
 .submitButton , .resetButton{
     color:white; 
     border: none;

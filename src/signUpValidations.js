@@ -27,7 +27,7 @@ function validate() {
   {
     alert( 'Enter the date in correct format' );
   } else {
-    document.form1.action  = 'values.php'; 
+    document.form1.action  = '../src/values.php'; 
   }
 
 }
